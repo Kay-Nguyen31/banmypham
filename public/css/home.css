@@ -1,0 +1,379 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f5f5;
+}
+.img-logo img{
+    width: 170px;
+    height: 80px;
+}
+.header-menu{
+    background-color: #f5f5f5;
+}
+.access-form{
+    background-color: #f5f5f5;
+    margin-top: 25px;
+
+}
+.access-form .row .null .title {
+    padding-top: 10px;
+}
+.access-form .row .login button{
+    width: 100px;
+    height: 40px;
+    background-color: #3961FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.access-form .row .register button{
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #3961FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* ---------------------------------- Menu ------------------------------- */
+.menu{
+    width: 100%;
+}
+.navbar-nav .nav-item a{
+   margin-left: 15px;
+    
+}
+.menu .icon{
+    width: 25px;
+    margin: auto;
+}
+.navbar-nav .nav-item a:hover{
+    background: #F73859;
+    
+ }
+
+ /*---------------------------------- search-box ------------------------------*/
+
+ .container-searchbox{
+     background-color: #FEBB02;
+     max-width: 1100px;
+     height: 60px;
+     margin: 0 auto;
+     /* margin-top: 20px; */
+     padding-top: 10px;
+     border-radius: 8px;
+ }
+ .wrapper{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+ .wrapper .item1{
+     flex-basis: 300px;
+ }
+ .wrapper .item2{
+    flex-basis: 300px;
+}
+.wrapper .item3{
+    flex-basis: 500px;
+}
+ .combobox-search{
+     width: 90%;
+     margin-left: 5%;
+ }
+ .combobox-search1{
+    width: 90%;
+}
+.input-group{
+    width: 97%;
+}
+.input-group button{
+    background: #025AAC;
+    color: white;
+}
+.input-group button:hover{
+    background: #F73859;
+    color: white;
+}
+
+ /*------------------------- title ----------------------------- */
+.container_title{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.wrapper_title{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background: red; */
+}
+.wrapper_title .item_title{
+   flex-basis: 100%;
+}
+ /*------------------------- Room content ----------------------------- */
+
+.item_content{
+    background-color: #FFF;
+     border:1px solid #dedede;
+     border-radius: 8px;
+ }
+
+.box_content .title_content{
+    margin-top: 10px;
+}
+
+ .box_room{
+    padding-top: 10px;
+    background: #FFF;
+   border-bottom: 1px solid #dedede;
+}
+
+/* set kich thuoc anh */
+.box_room .item_img img{
+   width: 96%;
+   height: 90%;
+}
+/* --- author --------- */
+.box_room .item_inf a img{
+    width:30px;
+    height:30px;
+    /* kéo dài hoặc co lại nó vào trong box */
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+/* ----------------------- khối box bên phải content Room -------------------------------*/
+.box_support{
+    background-color: #FFFF;
+    
+}
+.box_support_title{
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+}
+.box_support_title p a{
+    text-decoration: none;
+    color: black;
+}
+
+.box_support_title p a:hover{
+    color:#F73859;
+}
+/*--------- lọc theo giá ----------- */
+
+.box_support_title .title_price_left{
+    width: 50%;
+    /* background: red; */
+    float: left;
+
+}
+.box_support_title .title_price_right{
+    width: calc(100%-50%);
+    /* margin-left: 10px; */
+    /* background: blue; */
+    
+
+}
+.box_support_title ul li{
+    text-align: center;
+    list-style-type: none;
+}
+.box_support_title ul li a{
+    text-decoration: none;
+    color:black
+}
+.box_support_title ul li a:hover{
+    color:#F73859;
+}
+
+/* ---------------- Contact ------------------ */
+.box_support_contacts{
+    margin-top: 10px;
+}
+.box_support_contacts p{
+    margin-left:30px;
+}
+.box_support_contacts p a{
+    text-decoration: none;
+    color:black
+}
+
+.box_support_contacts p a:hover{
+    color:#F73859;
+}
+/* ---------------- Về chúng tôi ------------------ */
+.title_end{
+    background-color: #FFF;
+    margin-top: 30px;
+}
+.title_end h4{
+    text-align: center;
+}
+.title_end p{
+    text-align: center;
+}
+.title_end p img{
+    width: 30px;
+}
+.title_end input{
+    background: #f73859;
+    border-color: #f73859;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+/*----------------------------- reponsive -------------------------------*/
+@media only screen and (max-width:1200px){
+    .container-searchbox{
+        padding-bottom: 20px;
+        height: auto;
+        background: #dedede;
+    }
+    .wrapper .item1{
+        flex-basis: 95%;
+        margin-left: 0.5%;
+    }   
+    .wrapper .item2{
+        flex-basis: 95%;
+        margin-left: 5%;
+    } 
+    .wrapper .item3{
+        flex-basis: 89%;
+        margin-left: 5%;
+    } 
+    .input-group button{
+        background: #FEBB02;
+    }
+    .space{
+        display: none;
+    }
+    .navbar-light .navbar-toggler:hover{
+        color: white;
+        background: white;
+    }
+    /* --------------- title --------------- */
+    .wrapper_title h2{
+        margin-left: 5%;
+    }
+    .wrapper_title p{
+        margin-left: 5%;
+    }
+    .item_content{
+        width: 90%;
+        margin-left: 5%;
+    }
+     .item_content1{
+        display: none;
+    }
+   
+}
+/* >992px*/
+@media only screen and (min-width:992px){
+        .null-right-header{
+            display: none;
+        }      
+        #title_mini{
+            display: none;
+        }
+}
+/*  < 992px  */
+@media screen and (max-width:992px)
+{
+    .null-right-bottom{
+        display: none;
+    }
+    .logo .img-logo{
+        text-align: center;
+    }
+    .access-form .row .null{
+        display: none;
+    }
+    .access-form .row .login button{
+        display: none;
+    }
+    .access-form .row .register button{
+       display: none;
+    }
+    /* ----------- Menu -------------------- */
+    .menu{
+        margin: auto;
+    }
+    .search-left{
+        display: none;
+    }
+    .search-right{
+        display: none;
+    }
+    .wrapper{
+        grid-template-columns: 98% 98% 98%;
+     }
+
+     .navbar-light .navbar-toggler{
+        color: white;
+        background: white;
+    }
+    .navbar-light .navbar-toggler:hover{
+        color: #F73859;
+        background-color: white;
+    }
+    /* --------------- title --------------- */
+    .wrapper_title{
+        width: 96%;
+        margin-left: 2%;
+        background:  #225AFF;
+        color:white;
+        border-radius: 8px;
+        
+    }
+    .wrapper_title h2{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .wrapper_title p{
+        margin-left: 2%;
+    }
+     .item_content{
+        width: 90%;
+        margin-left: 5%;
+    }
+     .item_content1{
+        display: none;
+    }
+     
+} 
+/* nho hon 740px  */
+@media screen  and (max-width:740px)
+{
+    /* .null-right-header{
+        display: none;
+    } */
+    .logo .img-logo{
+        text-align: center;
+    }
+    .wrapper_content .item_content{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .wrapper_content .item_content1{
+        display: none;
+    }
+}
+
+
+
+
+

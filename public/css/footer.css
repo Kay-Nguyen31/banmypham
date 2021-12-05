@@ -1,0 +1,27 @@
+.footer_left{
+    padding-top: 30px;
+}
+.footer_left ul li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+.footer_left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.address{
+    padding-top: 40px;
+}
+.address h6{
+    text-align: center;
+}
+.address p{
+    text-align: center;
+}
+/* <768 */
+@media screen and (max-width: 768px)
+{
+    .footer_up{
+        display: none;
+    }
+}
