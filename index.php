@@ -13,7 +13,7 @@ if (isset($_REQUEST['action'])) {
 require_once __DIR__ . "/mvc/controllers/$controller.php";
 $controller = new $controller();
 $controller->$action();
-echo 1;
+echo 2;
 ?>
 <!-- <img src="./public/img/home/tphcm.jpg" alt=""> -->
 <!-- <img src="./public/img/home/Thiết kế không tên.png" class="img-fluid" alt="..." style="height: 488px;"> -->
