@@ -20,8 +20,8 @@
                 <img src="./public/img/home/logo.png" alt="">
             </div>
             <div class="item-dndk">
-                <a href="#" class="dangnhap">Đăng nhập</a>
-                <a href="#" class="dangki">Đăng kí</a>
+                <a href="index.php?controller=dangnhap&action=login" class="dangnhap">Đăng nhập</a>
+                <a href="../layout/dangky.php" class="dangki">Đăng kí</a>
             </div>
         </div>
     </div>
