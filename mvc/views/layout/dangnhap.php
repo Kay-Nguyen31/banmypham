@@ -28,7 +28,7 @@
                     <a href="">Quên mật khẩu?</a>
                 </div>
                 <div class="btn">
-                    <input type="button" value="Đăng Nhập" id="logib">
+                    <input type="button" value="Đăng Nhập" id="login">
                     <input type="button" value="Huỷ" id="thoat">
                 </div>
                 <!-- <div class="signup">
@@ -52,6 +52,9 @@
         </div>
     </div>
     <script>
+        document.getElementById('login').onclick = function() {
+            window.location.href = "index.php?controller=dangnhap&action=manager";
+        }
         document.getElementById('register').onclick = function() {
             window.location.href = "index.php?controller=dangky&action=register";
         }

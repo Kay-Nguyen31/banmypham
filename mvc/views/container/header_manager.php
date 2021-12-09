@@ -31,8 +31,8 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#"> <img src="./public/img/icon/home.png" alt="" style="width:10%"> Trang Chủ</a></li>
-                        <li><a href="index.php?page=cpn_sanpham"><img src="./public/img/icon/cosmetics.png" alt="" style="width:12%"> Quản lý Sản phẩm</a></li>
+                        <li><a href="index.php?controller=dangnhap&action=manager"> <img src="./public/img/icon/home.png" alt="" style="width:10%"> Trang Chủ</a></li>
+                        <li><a href="index.php?controller=dangnhap&action=manager&page=cpn_sanpham"><img src="./public/img/icon/cosmetics.png" alt="" style="width:12%"> Quản lý Sản phẩm</a></li>
                         <li><a href="#"> <img src="./public/img/icon/type-2.png" alt="" style="width:12%"> Quản lý loại sản phẩm</a></li>
                         <li><a href="#"> <img src="./public/img/icon/bill.png" alt="" style="width:12%"> Quản lý Đơn hàng</a></li>
                         <li><a href="#"> <img src="./public/img/icon/guest-list.png" alt="" style="width:12%"> Quản lý Khách Hàng</a></li>
@@ -60,7 +60,7 @@
                                 <a href="#">Hello Admin
                                     <ul class="sub-menu">
                                         <li><a href="#" style="color:#64C5B1;"><button style="background: none;border:none"><i class="ti-reload" style="width:2px;color:black"></i></button> Đổi mật khẩu</a></li>
-                                        <li><a href="#" style="color:#64C5B1;"> <img src="./public/img/icon/log-out.png" alt="" style="width:10%"> Đăng xuất</a></li>
+                                        <li><a href="index.php?controller=home&action=homee" style="color:#64C5B1;"> <img src="./public/img/icon/log-out.png" alt="" style="width:10%"> Đăng xuất</a></li>
                                     </ul>
                                 </a>
                             </li>
