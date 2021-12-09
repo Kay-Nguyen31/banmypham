@@ -3,6 +3,6 @@ class home extends controller
 {
     public function homee()
     {
-        $this->views("layout","manager");
+        $this->views("layout","home");
     }
 }
