@@ -13,7 +13,7 @@ class database{
     {
         mysqli_close($conn);
     }
-public function selectQuery($query)
+    public function selectQuery($query)
     {
         $conn = $this->connect();
         $data = [];
