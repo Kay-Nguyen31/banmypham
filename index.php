@@ -13,7 +13,6 @@ if (isset($_REQUEST['action'])) {
 require_once __DIR__ . "/mvc/controllers/$controller.php";
 $controller = new $controller();
 $controller->$action();
-echo 1;
 ?>
 
 <!-- <img src="./public/img/home/tphcm.jpg" alt=""> -->

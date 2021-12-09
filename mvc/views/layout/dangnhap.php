@@ -28,8 +28,8 @@
                     <a href="">Quên mật khẩu?</a>
                 </div>
                 <div class="btn">
-                    <input type="button" value="Đăng Nhập">
-                    <input type="button" value="Huỷ">
+                    <input type="button" value="Đăng Nhập" id="logib">
+                    <input type="button" value="Huỷ" id="thoat">
                 </div>
                 <!-- <div class="signup">
                     <p>Chưa có tài khoản? <a href="">Đăng ký</a></p>
@@ -46,12 +46,19 @@
                     <p>Tạo tài khoản của bạn và tận hưởng những lợi ích trực tuyến độc quyền từ chúng tôi!</p>
                 </div>
                 <div class="btn-1">
-                    <input type="button" value="Đăng ký">
+                    <input type="button" value="Đăng ký" id="register">
                 </div>
             </form>
         </div>
     </div>
+    <script>
+        document.getElementById('register').onclick = function() {
+            window.location.href = "index.php?controller=dangky&action=register";
+        }
+        document.getElementById('thoat').onclick = function() {
+            document.location.href = "index.php?controller=home&action=homee";
+        }
+    </script>
 </body>
 
 </html>
-

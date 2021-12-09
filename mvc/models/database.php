@@ -2,10 +2,10 @@
 class database{
     public function connect()
     {
-        $host = "";
-        $user = "";
+        $host = "localhost";
+        $user = "root";
         $pass = "";
-        $db = "";
+        $db = "banmyphamm";
         $conn = mysqli_connect($host, $user, $pass, $db);
         return $conn;
     }

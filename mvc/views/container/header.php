@@ -21,7 +21,7 @@
             </div>
             <div class="item-dndk">
                 <a href="index.php?controller=dangnhap&action=login" class="dangnhap">Đăng nhập</a>
-                <a href="../layout/dangky.php" class="dangki">Đăng kí</a>
+                <a href="index.php?controller=dangky&action=register" class="dangki">Đăng kí</a>
             </div>
         </div>
     </div>
@@ -29,7 +29,7 @@
     <!---------------------------- menu ------------------------------------->
     <nav>
         <ul class="menu" id="menu-reponsive">
-            <li><a href="#" title="">Trang chủ</a></li>
+            <li><a href="index.php?page=cpn_trangchu" title="">Trang chủ</a></li>
             <li><a href="#" title="">Giới thiệu</a></li>
             <li><a href="#" title="">Loại sản phẩm</a>
                 <!-- menu con sổ xuống cấp 1 -->

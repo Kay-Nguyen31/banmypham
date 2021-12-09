@@ -43,13 +43,22 @@
             </div>
             <div class="btn">
                 <input type="button" value="Đăng Ký">
-                <input type="button" value="Huỷ">
+                <input type="button" value="Huỷ" id="thoat">
             </div>
             <div class="dangnhap">
-                <p>Đã có tài khoản? <a href="">Đăng nhập</a></p>
+                <p>Đã có tài khoản? <a href="index.php?controller=dangnhap&action=login">Đăng nhập</a></p>
             </div>
         </form>
     </div>
+    <script>
+        document.getElementById('thoat').onclick = function() {
+            if (confirm('Bạn có chắc muốn thoát')) {
+                document.location.href = "index.php?controller=home&action=homee";
+            } else {
+                document.location.href = "index.php?controller=dangky&action=register";
+            }
+        }
+    </script>
 </body>
 
 </html>
