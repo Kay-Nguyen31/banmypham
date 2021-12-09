@@ -1,0 +1,128 @@
+.ol-non{
+    display: flex;
+}
+.ol-non li {
+    list-style: none; 
+}
+.ol-non li a{
+    display: block;
+    padding: 0 15px;
+    color: rgb(168, 164, 164);
+    text-decoration: none;
+    
+}
+.ol-non li a::after { 
+    content: " / ";
+    color: rgb(214, 209, 209);
+    font-weight: bold;
+  }
+
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+      margin: 0 auto;
+}
+.top .item-img{
+    flex-basis: 30%;
+}
+.top .item-img img{
+    max-width: 100%;
+    border: 1px solid rgb(228, 225, 225);
+}
+.top .item-content{
+    flex-basis: 40%;
+    margin-left: 20px;
+}
+.item-content h2{
+    color: rgb(58, 57, 57);
+}
+.item-content .gia{
+    color: rgb(10, 110, 10);
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-content .content-sp{
+    color: rgb(91, 95, 91);
+    font-size: 18px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    border-top: 1px solid rgb(206, 204, 204);
+}
+.item-content .muangay{
+    background-color: rgb(1, 100, 1);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+.top .item-km{
+    flex-basis: 25%;
+    border: 1px solid rgb(228, 225, 225);
+}
+.item-km h4{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom:  1px solid rgb(228, 225, 225);
+   padding-bottom: 10px;
+}
+.item-km .km{
+    overflow: auto;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.item-km img{ 
+    width: 80px;
+    float: left;
+}
+.item-km strong{
+    font-size: 12px;
+    color: green;
+}
+.item-km p{
+    font-size: 12px;
+}
+@media screen and (max-width:500px){
+    .top .item-km{
+        display: none;
+    }
+    .top .item-content{
+        flex-basis: 60%;
+        margin-left: 20px;
+    }
+}
+
+.bottom {
+    max-width: 1100px;
+      margin: 0 auto;
+}
+.bottom h4{
+    color: green;
+    border-bottom: 1px solid green;
+}
+.bottom pre{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bottom img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.ol-non li:after {
+    content: "/ ";
+    color: #ccc;
+    position: absolute;
+    right: -22px;
+    top: 1px;
+}
